@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header_height">44dp</dimen>
+    <dimen name="icon_size">30dp</dimen>
+    <dimen name="header_margin_left_right">7dp</dimen>
+    <dimen name="history_button_height">40dp</dimen>
+    <dimen name="server_item_height">30dp</dimen>
+    <dimen name="server_state_color_size">20dp</dimen>
+    <dimen name="app_color_size">20dp</dimen>
+    <dimen name="server_state_color_marginLeft">5dp</dimen>
+    <dimen name="server_show_hide_info_size">20dp</dimen>
+    <dimen name="btn_go_to_app_size">20dp</dimen>
+    <dimen name="no_data_marginTop">60dp</dimen>
+</resources>

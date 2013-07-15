@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/server_item_height">
+    <View
+            android:id="@+id/server_color_state"
+            android:layout_width="@dimen/server_state_color_size"
+            android:layout_height="@dimen/server_state_color_size"
+            android:background="@android:drawable/btn_star"
+            android:layout_marginLeft="@dimen/server_state_color_marginLeft"/>
+    <TextView
+            android:id="@+id/server_name"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:text="localhost"
+            android:layout_toRightOf="@id/server_color_state"/>
+    <View
+            android:id="@+id/show_hide_info"
+            android:layout_width="@dimen/server_show_hide_info_size"
+            android:layout_height="@dimen/server_show_hide_info_size"
+            android:background="@android:drawable/btn_plus"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+</RelativeLayout>
